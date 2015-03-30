@@ -1,0 +1,170 @@
+
+body{
+    background-size: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#mainStatement{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 45px;
+}
+
+.MainContainer{
+    width: 75%;
+    margin-left: 20%;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {background-color: transparent;}
+
+.textBoxFieldContainer{
+    width: 88%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.OptionsContainer1, .OptionsContainer2{
+    width: 31%;
+    height: 400px;
+    border-radius: 1%;
+    padding: 25px 10px 10px 15px;
+    margin-top: 3%;
+    box-shadow: 0 0 10px #888888;
+}
+
+.OptionsContainer1{
+    position: fixed;
+    left: 25%;
+}
+
+.OptionsContainer2{
+    position: fixed;
+    left: 59%;
+}
+
+.navbar{
+    height: 10%;
+    background-color: transparent;
+}
+
+.navbar-form{
+    position: fixed;
+    top: 15px;
+    right: 5%;
+}
+
+#div-signInForm{
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    height: 80%;
+    padding: 20px;
+}
+#div-regForm{
+    position: fixed;
+    top: 20%;
+    right: 20%;
+    height: 80%;
+    padding: 20px;
+}
+
+.signUpContainer{
+    width:450px;
+}
+.signInContainer{
+    width: 400px;
+}
+
+.form-title{
+    color: rgba(44, 100, 71, 0.78);
+}
+.form-sub-title{
+    color: #000000;
+}
+.form-title, .form-sub-title{
+    font-family:"Lucida Grande",Tahoma,Verdana,Arial,sans-serif;
+    font-size:30px;
+    font-weight:bold;
+}
+
+#fname, #lname, #email, #email-repeat, #pass, #username, #password{
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 5%;
+    margin-top: 2%;
+    height: 44px;
+}
+
+
+#pass{
+    margin-bottom: 6%;
+}
+
+.signUpButtons{
+    width: 100%;
+}
+
+.btn-primary:active,  .btn-primary:hover{
+    background-color: rgba(44, 100, 71, 0.78);
+}
+
+/*Sidebar Styles*/
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    top: 0%;
+    width: 250px;
+    height: 100%;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 5%;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #526aff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-brand {
+    margin-bottom: 20%;
+    font-size: 25px;
+}
+
+
+

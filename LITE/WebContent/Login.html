@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link data-require="bootstrap@*" data-semver="3.3.1" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+    <link data-require="bootstrap-css@*" data-semver="3.3.1" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+    <script data-require="bootstrap@*" data-semver="3.3.1" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href=css/style.css />
+    <title> Lite Lab</title>
+</head>
+<body >
+<section NavigationBar>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <h3>S&T LITE LAB</h3> </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section SignIn>
+    <div class="container signInContainer" id="div-signInForm">
+        <div class="form-title">Sign In</div>
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" id="username" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="password" placeholder="Password">
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-lg signUpButtons">Sign In</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<section SignUp>
+    <div class="container signUpContainer" id="div-regForm">
+
+        <div class="form-title">Sign Up</div>
+        <form >
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <input id="fname" type="text" placeholder="   First Name" >
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <input id="lname" type="text" placeholder="   Last Name">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input id="email" type="email" placeholder=" E-mail " >
+            </div>
+
+            <div class="form-group">
+                <input id="email-repeat" type="email" placeholder="  Re-enter email ">
+            </div>
+
+            <div clas="form-group">
+                <input id="pass" type="password" placeholder="   Password" >
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="form-group">
+                        <input class="btn btn-primary btn-lg signUpButtons" type="submit" value="Sign Up">
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="form-group">
+                        <input  class="btn btn-primary btn-lg signUpButtons" type="button" value="Continue as Guest">
+                    </div>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+</section>
+</div>
+</body>
+</html>
